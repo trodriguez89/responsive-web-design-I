@@ -190,8 +190,15 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
+    padding: 10px;
 }
+
+.nav-bar1 .links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
 
 .logo {
 	width: 15%;
@@ -302,36 +309,17 @@ ul {
 
 
 .nav-container {
-    /* border: 2px solid red; */
+    
     width: 100%;
     display: flex;
     justify-content: space-around;
-    /* margin-top: 150px; */
-}
-
-
-
-/* .nav-bar .logo {
-    border: 2px solid red;
     
 }
 
-.nav-bar-div {
-    border: 2px solid red;
-    display: flex;
-    justify-content: center;
-} */
-
-.nav-bar-div {
-    /* border: 2px solid red; */
-}
-
-/* .top-section .about {
-    width: 48%;
-} */
 
 
-/* MEDIA QUERIES STYLING HERE*/
+
+/* MEDIA QUERIES FOR HOME PAGE STYLING HERE*/
 
 
 @media (max-width: 800px) {
@@ -412,9 +400,7 @@ footer .copyright {
 
    
 
-    /* .logo {
-        border-bottom: 1px solid gray;
-    } */
+
 
     .nav-container {
         flex-direction: column;
@@ -451,3 +437,91 @@ footer .copyright {
         padding-top: 10px;
     }
 }
+
+/* MEDIA QUERIES FOR SERVICES PAGE HERE */
+
+@media (max-width: 800px) {
+
+.nav-bar1 {
+    flex-direction: column-reverse;
+}
+
+.nav-bar1 .logo {
+    width: 25%;
+}
+
+
+ .links {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+} 
+
+.links a {
+    text-align: center;
+}
+
+.services {
+    font-size: 15px;
+}
+
+.top-row h3 {
+    text-align: center;
+}
+
+.section-big {
+    flex-direction: column;
+    
+}
+
+.section-big .top-row {
+    width: 100%;
+    font-size: 15px;
+    justify-content: center;
+    height: 25%;
+}
+
+
+
+
+.section-big .middle-row {
+    width: 100%;
+    font-size: 15px;
+    height: 25%;
+
+}
+
+.section-big .middle-row h3 {
+    text-align: center;
+}
+
+.section-big .bottom-row h3 {
+    text-align: center;
+}
+
+.section-big .bottom-row {
+    width: 100%;
+    font-size: 15px;
+    height: 25%;
+}
+
+.final-container .container {
+    font-size: 15px;
+}
+
+ul {
+    font-size: 15px;
+}
+
+.last-last .copyright-services-page{
+    font-size: 15px;
+}
+
+
+
+}
+
+
+
