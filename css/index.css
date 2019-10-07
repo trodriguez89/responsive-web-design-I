@@ -1,3 +1,453 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	
+}
+	 .max-width {
+	width: 80%;
+	margin: 0 auto;
+	
+	
+ }  
+
+.nav-bar {
+	padding: px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	
+}
+
+.title {
+	display:flex;
+	flex-direction: column;
+}
+.logo {
+	width: 10%
+}
+
+.nav-bar a {
+	width: 11%;
+	text-decoration: none;
+	color: gray;
+	padding: 10px;
+}
 
 
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+.firstSection {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+
+.get-started {
+	display: flex;
+	justify-content: center;
+}
+
+.top-section {
+	display: flex;
+	border-top: 2px solid black; 
+	padding-top: 50px;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+.top-section div {
+	width: 48%;
+	font-size: 30px;
+	
+}
+
+
+ .middle-image {
+	width: 100%; 
+	margin-top: 50px;  
+} 
+
+ .middle-pic  {
+	display: flex;
+	justify-content: center;
+	
+} 
+
+.bottom {
+	display: flex;
+	padding-top: 50px;
+	border-bottom: 2px solid black;
+	padding-bottom: 50px;
+}
+
+  .bottom div {
+	font-size: 30px;
+}  
+
+
+.contact {
+
+	padding-top: 50px;
+	 font-size: 30px; 
+}
+
+.copyright {
+	font-size: 30px; 
+	text-align: center;
+	
+	
+}
+
+
+
+
+/* CSS FOR SERVICES PAGE */
+
+h2 {
+	font-size: 30px;
+}
+
+.nav-bar a {
+    /* border: 2px solid red; */
+}
+
+
+.nav-bar1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo {
+	width: 15%;
+}
+
+.services-header-img {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.services {
+	display: flex;
+	margin-top: 20px;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+
+
+
+.section-big {
+	display:flex;
+	width: 100%;
+	margin-top: 10px;
+	height: 90%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-top: 2px solid black;
+	padding-top: 10px;
+}
+
+.section-big div {
+	font-size: 20px;
+	border: 1px solid black;
+	width: 49%;
+	padding: 20px;
+}
+
+div .learn-more {
+	font-size: 15px;
+	padding-left: 50px;
+	width: 30%;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+.section-big button {
+	margin-top: 5px;
+}
+
+.top-row {
+	margin-top: 50px;
+	height: 250px;
+}
+
+.middle-row {
+	margin-top: 50px;
+	height: 250px;
+}
+
+.bottom-row {
+	margin-top: 50px;
+	height: 250px;
+}
+
+
+.section-two {
+	display:flex;
+	width: 70%;
+}
+
+.section-three {
+	display:flex;
+	width: 70%;
+	
+}
+
+footer .final-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+	border-top: 2px solid black;
+	padding-top: 50px;
+}  
+
+.services-info-img {
+	width: 48%;
+}
+
+.container {
+	font-size: 20px;
+	width: 48%;
+	
+}
+
+ul {
+	font-size: 20px;
+	padding-left: 30px;
+	padding-top: 25px;
+}
+
+
+.last-last .copyright-services-page {
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+
+.nav-container {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 150px; */
+}
+
+
+
+/* .nav-bar .logo {
+    border: 2px solid red;
+    
+}
+
+.nav-bar-div {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+} */
+
+.nav-bar-div {
+    /* border: 2px solid red; */
+}
+
+/* .top-section .about {
+    width: 48%;
+} */
+
+
+/* MEDIA QUERIES STYLING HERE*/
+
+
+@media (max-width: 800px) {
+
+.nav-bar {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.nav-container {
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 100%; 
+    text-align: center;
+}
+
+.nav-bar-div {
+    display: flex;
+    flex-direction: column reverse;
+}
+
+
+
+.firstSection .middle-img {
+        display: none;
+    }
+
+.firstSection .title {
+    display: flex;
+    justify-content: center;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.top-section div {
+	width: 48%;
+	font-size: 15px; */
+	
+}
+
+.bottom div {
+	font-size: 15px;
+} 
+
+footer .contact {
+    font-size: 15px;
+}
+
+footer .copyright {
+    font-size: 15px;
+}
+
+}
+
+@media (max-width: 500px) {
+ 
+    .nav-container a {
+        width: 100%;
+        border-top: 1px solid black; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-container a:last-child {
+        border-bottom: 1px solid black;
+    }
+
+   
+
+    /* .logo {
+        border-bottom: 1px solid gray;
+    } */
+
+    .nav-container {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .nav-bar {
+       width: 100%;
+       flex-direction: column-reverse
+   } 
+
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    .top-section div {
+        width: 100%;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product {
+        padding-top: 10px;
+    }
+
+    .vision {
+        padding-top: 10px;
+    }
+}
